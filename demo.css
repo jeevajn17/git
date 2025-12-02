@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+   justify-content: center;
+   align-items: center;
+   margin: 30px 0px 0px 0px;
+}
+.container .top h3{
+    padding-top: 20px;
+   
+}
+.container span a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.top .fav{
+    display: flex;
+    justify-content: flex-end;
+    font-size: large;
+    color: red ;
+    margin-bottom: 20px;
+}
+img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.btns{
+    border-radius: 10px;
+    margin:  10px 0px;
+    padding: 10px;
+    
+}
+.btns .blue{
+    background-color: rgb(21, 4, 250);
+     border-radius: 10px;
+    padding: 5px;
+    
+}
+.btns .green{
+    background-color: rgb(5, 122, 46);
+     border-radius: 10px;
+    padding: 5px;
+    
+}.btns .red{
+    background-color: rgb(255, 85, 0);
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.list-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+   
+    
+}
+.list-box div{
+    color: white;
+    border: 2px solid ;
+    border-radius: 10px;
+    background-color: #708090;
+    padding: 5px;
+
+}
+.inst{
+    color: black;
+    line-height: 2rem;
+    margin: 20px;
+}
+.tit h3{
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+}
